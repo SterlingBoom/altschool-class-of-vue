@@ -3,7 +3,7 @@
     <div :style="`color: ${value}`">{{ value }}</div>
   </slot>
   <slot name="footer">
-    <div style="font-size: 8px">Generic footer</div>
+    <div style="font-size:8px">Generic footer</div>
   </slot>
 
   <button @click="handleSelectedColor">Click me</button>
